@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital@0;1&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #047857;
+  --secondary-color: #fbbf24;
+  --background: white;
+}
+
+.header {
+  background-image: linear-gradient(140deg, #047857, #f59e0b);
+  padding: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-size: 15px;
+  font-family: "Padauk", serif;
+  line-height: 4rem;
+}
+span {
+  font-size: larger;
+}
+.about {
+  width: 100%;
+  margin: auto;
+  font-family: "KoHo", serif;
+  font-size: larger;
+}
+body {
+  margin: 0px auto;
+  line-height: 1.5rem;
+  background-color: var(--background);
+}
+
+button {
+  border-radius: 0.3rem;
+  box-shadow: 0 0 7px #6ee7b7;
+  padding: 0.4rem 0.8rem;
+  margin: 1rem 1.3rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: #111827;
+  color: white;
+  font-family: "KoHo", sans-serif;
+}
+button:hover {
+  transform: scale(0.8);
+}
+
+.categ-name {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.categ-grid {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 5rem;
+  font-family: "KoHo", serif;
+  line-height: 1rem;
+  width: 80%;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  border-radius: 05rem;
+  box-shadow: 0 0 10px black;
+  padding: 2rem;
+}
+
+.imgg {
+  margin: auto;
+  width: 80%;
+  height: 160px;
+  padding: 1rem;
+  background-color: var(--background);
+  border-radius: 0.2rem;
+}
+
+.imgg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.details {
+  text-align: left;
+  padding-top: 3rem;
+  font-size: medium;
+}
+
+.footer {
+  font-family: "Koho", sans-serif;
+  background-image: linear-gradient(140deg, #60a5fa, #4b5563);
+  padding: 2rem;
+  margin-top: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-4px);
+}
+a.twitter {
+  color: black;
+}
+a.github {
+  color: black;
+}
+a.linkedin {
+  color: black;
+}
